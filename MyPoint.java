@@ -38,12 +38,12 @@ public class MyPoint {
     }
     int distance(MyPoint p) {
         int distance = (int) Math.sqrt(Math.pow((p.getX() - mPosX),2) + Math.pow((p.getY() - mPosY), 2));
-        System.out.println("Distacne: " + distance);
+        System.out.println("Distacnes: " + distance);
         return distance;
     }
     int distance1(MyPoint other) {
         int distance = (int) Math.sqrt(Math.pow((other.getX() - this.getX()),2) + Math.pow((other.getY() - this.getY()), 2));
-        System.out.println("Distacne: " + distance);
+        System.out.println("Distacnes: " + distance);
         return distance;
     }
     public static void main(String[] args) {
