@@ -1,0 +1,6 @@
+ //Sap xep giam dan
+ List<ThiSinh> sortedList = new ArrayList<>(thisinh);
+        Collections.sort(sortedList, Comparator.comparingDouble(ThiSinh::calculate).reversed());
+// Sap xep tang dan
+List<ThiSinh> sortedList = new ArrayList<>(thisinh);
+        Collections.sort(sortedList, Comparator.comparingDouble(ThiSinh::calculate));
