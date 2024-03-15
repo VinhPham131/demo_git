@@ -19,6 +19,8 @@ public class Cau1 extends javax.swing.JFrame {
         initComponents();
         int a = 0;
         int b = 2;
+        int c = 2;
+        int d = 4;
         
     }
     /**
